@@ -1,0 +1,43 @@
+/*Uncomment the follwoing lines to move facets to the left*/
+
+prm-search > md-content.md-primoExplore-theme .main {
+    display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+}
+.screen-gt-sm .sidebar{
+    webkit-flex: 0 0 15%;
+    flex: 0 0 15%;
+}
+
+prm-logo .logo-image, prm-logo img {
+    max-height: 300%;
+    margin-top: -27px;
+}
+
+.prm-secondary-color, prm-search-bookmark-filter .md-button, prm-topbar .top-nav-bar {
+    color: #53738c;
+}
+
+.prm-primary-bg, prm-browse-search-bar, prm-journals-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after, prm-tags-search-bar {
+    color: #fff;
+    background-color: #53738c;
+}
+
+
+/*Changes*/
+.prm-secondary-color, prm-search-bookmark-filter .md-button, prm-topbar .top-nav-bar {
+    background-color: #CF7C00; /*change this value for the navbar's background*/
+}
+
+.prm-primary-bg, prm-browse-search-bar, prm-journals-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark::after, prm-tags-search-bar {
+    color: #fff;
+    background-color: #FF9900; /*change this value for the search bar's background*/
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    color: #3a3a3a; /* color of text */
+}
